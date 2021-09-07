@@ -1,6 +1,4 @@
-/*==================================================
-=            Bootstrap 3 Media Queries             =
-==================================================*/
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -71,7 +69,7 @@
 		font-size: 10px;
 	}
 
-}
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -126,7 +124,7 @@
 		top: 45% !important; /* Removes parallax on caption */
 	}
 	#text-carousel-intro-section .caption h1 {
-		font-size: 34px;
+		font-size: 44px;
 	}
 	#text-carousel-intro-section .caption h3 {
 		font-size: 12px;
@@ -163,7 +161,7 @@
 		;
 	}
 	.navbar-brand>img {
-		width: 65px;
+		width: 60px;
 		height: 50px;
 		margin-left: 40px;
 	}
@@ -173,6 +171,7 @@
 	.navbar-toggle {
 		margin-top: 8px;
 		border: none;
+		margin-right: -25px;;
 	}
 	.navbar-toggle:hover, .navbar-toggle:focus {
 		background-color: rgba(0, 0, 0, 0) !important;
@@ -182,7 +181,7 @@
 		height: 3px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: black !important;
 	}
 	.navbar-transparent .navbar-toggle .icon-bar {
 		background-color: #FFF !important;
@@ -222,7 +221,8 @@
 
 	/* Navbar shrink toggle button */
 	.navbar-shrink .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: black !important;
+		
 	}
 	.navbar-inverse.navbar-shrink .navbar-toggle .icon-bar {
 		background-color: #FFF !important;
@@ -231,8 +231,8 @@
 	#text-carousel-intro-section .caption {
 		position: relative;
 		top: 40%;
-		margin-top: -100px;
-
+		margin-top: -150px;
+	}
 	/* Page */
 	.page {
 		padding-top: 30px;
@@ -241,6 +241,10 @@
 	/* Some Text Center Area */
 	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
 		text-align: center;
+	}
+	#contact-section .contact .contact-form h4 {
+		margin-top: 230px;
+		display: inline;
 	}
 
 	/* Rotate Box */
@@ -286,7 +290,6 @@
 		display: none !important;
 	}
 
-}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {

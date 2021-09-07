@@ -120,9 +120,7 @@ section {
   	background-size: cover;
 }
 
-#header {
-	/* height: 98px; */
-}
+
 
 
 /* ===== Begin text colors ===== */
@@ -141,6 +139,8 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	background-color: blanchedalmond;
+	
 }
 .navbar .container {
 	padding-left: 0px;
@@ -216,8 +216,7 @@ section {
 .navbar-shrink .navbar-brand {
 	font-size: 20px;
 }
-.navbar-default.navbar-fixed-top.navbar-shrink .container {
-}
+
 .navbar-fixed-top.navbar-shrink .container {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
@@ -405,8 +404,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 
 /* ===== Begin progress bar ===== */
-.skill-bar {
-}
+
 .progress {
 	overflow: visible;
 	height: 25px;
@@ -821,6 +819,7 @@ ul.social-list li a i {
 }
 #contact-section .contact .contact-form h4 {
 	margin-bottom: 25px;
+	
 }
 #contact-section .contact .contact-form .input-lg {
 	font-size: 14px;
