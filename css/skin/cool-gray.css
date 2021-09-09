@@ -51,7 +51,7 @@ a, a:hover, a:focus {
 }
 /* Navbar inverse */
 .navbar-inverse {
-	background-color: #111;
+	background-color: rgb(175, 37, 37);
 	color: #CCC;
 }
 .navbar-inverse .navbar-brand {
@@ -72,7 +72,7 @@ a, a:hover, a:focus {
 	color: #111;
 }
 .navbar-inverse .dropdown-menu {
-	background-color: #1F1F1F;
+	background-color: #ad2828;
 	border: 1px solid #111;
 	border-top: 2px solid #111;
 }
@@ -250,7 +250,7 @@ a, a:hover, a:focus {
 @media only screen and (max-width : 767px) {
 
 .navbar-collapse {
-		background-color: #676D75;
+		background-color: #fff;
 		border-color: #fff !important;
 	}
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
