@@ -138,6 +138,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	height: 70px;
 	
 	
 }
@@ -204,6 +205,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	margin-left: 50px;
 }
 
 .navbar-shrink {
@@ -227,7 +229,7 @@ section {
 	padding-bottom: 24px;
 }
 .navbar-right {
-	margin-right: -150px;
+	margin-right: -260px;
 }
 	
 	
