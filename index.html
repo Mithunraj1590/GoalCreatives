@@ -869,10 +869,10 @@
          $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbyr5FmIh_Xd2TD9vhUAYKeHACvWlqnZ7HhQv6mEmZGah5AQZRRflaKATBkvaszw260/exec",
+                url:"https://script.google.com/macros/s/AKfycbwFNbRiw3Kbt-h-8dSts6RUViplQv53yX6JQ1QffWquiV5jXRTHj4yhLo287Xgfa2qh/exec",
                 url:"",
                 data:$("#submit-form").serialize(),
-                method:"post",
+                method:"POST",
                 success:function (response){
                     alert("Form submitted successfully")
                     window.location.reload()
