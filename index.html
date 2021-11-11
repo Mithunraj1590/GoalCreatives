@@ -36,6 +36,8 @@
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -850,7 +852,7 @@
         
         
         <!-- Plugins JS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
 		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
 		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
 		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
@@ -865,26 +867,25 @@
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
-      <script>
-         $("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbwFNbRiw3Kbt-h-8dSts6RUViplQv53yX6JQ1QffWquiV5jXRTHj4yhLo287Xgfa2qh/exec",
-                url:"",
-                data:$("#submit-form").serialize(),
-                method:"POST",
-                success:function (response){
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Something Error")
-    
-                }
+        <script>
+            $("#submit-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbwTGbKzR2Slpt6-I8UI8VgwuiZm70OlF9SKDmwW_4IOYJBm8NWOy--XDuagY2vH9LV9Sw/exec",
+                    data:$("#submit-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        alert("Form submitted successfully")
+                        window.location.reload()
+                        //window.location.href="https://google.com"
+                    },
+                    error:function (err){
+                        alert("Something Error")
+        
+                    }
+                })
             })
-        })
-    </script>
+        </script>
     </body> 
         
             
