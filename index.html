@@ -873,6 +873,7 @@
             $("#submit-form").submit((e)=>{
                 e.preventDefault()
                 $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbzW064oUE1XaeNxhPorSsz1WoumZcs0MbqhUGrwNxZDsXk92lgAdFgHY2iBkHmrIb-i0Q/exec",
                     data:$("#submit-form").serialize(),
                     method:"post",
                     success:function (response){
